@@ -1,0 +1,62 @@
+/* Background Image Template CSS */
+
+.bg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('backgrounds/default_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.15; /* Adjust opacity as needed */
+}
+
+/* Page-specific background classes */
+.bg-welcome {
+    background-image: url('backgrounds/welcome_bg.jpg');
+}
+
+.bg-about {
+    background-image: url('backgrounds/about_bg.jpg');
+}
+
+.bg-services {
+    background-image: url('backgrounds/services_bg.jpg');
+}
+
+.bg-contact {
+    background-image: url('backgrounds/contact_bg.jpg');
+}
+
+/* Login page background */
+.bg-login {
+    background-image: url('backgrounds/login_bg.jpg');
+    opacity: 0.2; /* Slightly more visible than default */
+}
+
+/* New background classes for additional pages */
+.bg-teleconsultation {
+    background-image: url('backgrounds/services_bg.jpg');
+}
+
+.bg-request {
+    background-image: url('backgrounds/welcome_bg.jpg');
+}
+
+.bg-chat {
+    background-image: url('backgrounds/contact_bg.jpg');
+}
+
+/* Adjust content wrapper for better readability with background */
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+/* Enhance container visibility against background */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+}
